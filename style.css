@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+     list-style: none;
+    box-sizing: border-box;
+}
+/*la partie du navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F1C10C;
+    align-items: center;
+   
+}
+.logo{
+    width: 4rem;
+    height: auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    gap: 1.5rem;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    background-color: #004AAD;
+    align-items: center;
+    width: 8rem ;
+    height: 2rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.29rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* la partie du banniere */
+header{
+    background-color:#f5f5f5 ;
+}
+
+.Baniere{
+  display: flex;
+flex-direction: column;
+   width: 80%;
+   margin: auto ;
+
+   
+   
+}
+.btn-Banniere{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.text-Baniere{
+    font-size: 1.8rem;
+    color: #004AAD;
+}
+span{
+ color: #F1C10C;
+}
+.photoDiplome{
+ float: right;
+}
+.btn-Banniere{
+    background-color: #004AAD;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+.text_header{
+ 
+    display: flex;
+    flex-direction: column;
+align-items: center;
+  
+}
+/* la partie du compteur */
+.cont-compteur{
+ display: flex;
+  align-items: center;
+ justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    background-color: #004AAD;
+    color: white;
+    align-items: center;
+}
+.box-compteur{
+    padding: 1rem;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   width: 15rem;
+   align-items: center;
+}
+.Nbr-compteur{
+    font-size: 3.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-compteur{
+    font-size: 1.5rem;
+}
+.photoLogo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 25%;
+    height: auto;
+}
+ /* la partie du Pourquoi TRi-etud  */
+.titre-Pourquoi{
+    color: #F1C10C;
+    margin-left: 10%;
+    padding: 1rem;
+    
+}
+
+.Cont-pourquoi{
+  display: flex;
+justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    gap: 1rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+.box-pourquoi{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 1.5rem;
+   gap: 2rem;
+   box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.338) ;
+   width: 20rem;
+}
+.text-Pourquoi{
+    font-size: 1.8rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: #F1C10C;
+}
+.espace{
+   
+    height: 6rem;
+   width: auto;
+}
+
+/* la partie du platform */
+.platforme{
+   display: flex;
+   justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    background-color: #004AAD;
+    padding: 5rem 3rem 0rem 3rem;
+    align-items: center;
+   gap: 2rem;
+}
+.text-platform{
+   
+    justify-content: center;
+    align-items: center;
+   color: white;
+   font-size: 1.8rem;
+   padding: 1rem;
+}
+.photo-platform{
+   display: flex;
+  
+   margin: auto;
+}
+/* la partie des evenement */
+.Evenement{
+  display: flex;
+ justify-content: space-around ;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+.box-event{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 21rem;
+    height: auto;
+    box-shadow: 0.01rem 0.01rem 0.2rem 0.1rem rgba(0, 0, 0, 0.338) ;
+    border-radius: 0.0rem 0.0rem 0.7rem 0.7rem;
+}
+.titre-event{
+    padding: 0.5rem;
+}
+.text-event{
+    padding: 0.25rem 0.5rem;
+    color: rgb(162, 162, 162);
+}
+.link-event{
+    padding: 0.5rem 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(52, 52, 230);
+}
+
+.Entre-cont{
+
+       color: #004AAD;
+        margin-left: 10%;
+        padding: 2rem 1rem ;
+}
+/*la partie des évenement */
+.cont-temoignages{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+padding: 2rem 2rem 8rem 2rem ;
+gap: 1.5rem;
+}
+.img-Temoignant{
+    width: 10rem;
+    height: auto;
+    border-radius: 50rem;
+    border: #F1C10C solid 0.185rem;  
+  
+    align-items: center;
+  position: absolute;
+    display: flex;
+   margin: auto;
+   z-index: 2; 
+   margin-left: 4.65rem;
+}
+.box-temoigne{
+    width: 20rem;
+    padding: 1.5rem 0rem;
+}
+
+/*code couleur du texte des evenement #A0AEC0*/
+.blox-text-temoigne{
+    align-items: center;
+    border-radius: 01rem;
+    border: #F1C10C solid 0.185rem;  
+    padding: 0.5rem;
+    position: relative;
+    z-index: 1;
+    margin-top: 5rem;
+}
+.titre-temoigne{
+
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+  
+}
+.text-temoigne{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    padding: 0.75rem;
+   
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    padding: 1.85rem;
+}
+/* la partie du footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #004AAD;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
+.photo-footer{
+    width: 15rem;
+    height: auto;
+}
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+    
+}
+.box-footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input{
+    border-radius: 0.5rem;
+height: 2rem; 
+padding: 1rem;
+}
+.btn_form{
+    background-color: whitesmoke;
+    color: #004AAD;
+}
+
+
+
+ /* pour la partie responsive tablette */
+ @media screen and (max-width: 768px) {
+
+
+    .cont-compteur{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Cont-pourquoi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-pourquoi{
+    width: 16rem;
+}
+.platforme{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Evenement{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-event{
+    width: 16rem;
+}
+.cont-temoignages{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box-temoigne{
+    width: 16rem;
+    padding: 1.5rem 0rem;
+}
+.img-Temoignant{
+  
+   margin-left: 2.85rem;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+ }
+ @media screen and (max-width: 428px){
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.btn{
+    display: none;
+}
+.logo{
+    display: none;
+}
+.baniere{
+   gap:1rem;
+    width: 100%;
+}
+.photo-platform{
+    display: none;
+}
+/* la partie bainniere en haut*/
+
+
+.photoDiplome, .photoEnfant{
+    width: 10rem;
+    height: auto;
+}
+.text-Baniere{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.btn-Banniere{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+
+
+}
+ 
