@@ -87,6 +87,7 @@ span{
 align-items: center;
   
 }
+.photoEnfant{ width: 18rem; height: auto;}
 /* la partie du compteur */
 .cont-compteur{
  display: flex;
